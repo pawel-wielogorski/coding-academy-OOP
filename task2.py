@@ -5,7 +5,7 @@ import requests
 f = open(r"input_data.txt", "r")
 data = f.read()
 table = data.split('\n')
-print(len(table))
+
 
 def json_request(cnumber):   # budujemy z numeru klienta request JSON
     cunbr_={"cunbr":cnumber}
